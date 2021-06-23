@@ -15,6 +15,7 @@ a,a:hover {
 
 .container {
 	padding:0;
+	max-width:1100px !important;
 }
 .hide {
 	display: none;
@@ -93,12 +94,15 @@ a,a:hover {
 	padding-top:30px;
 	margin-bottom:50px;
 }
+.footer-container .container {
+	max-width: 1100px;
+}
 .footer-container .container .row{
   margin: 0px 2rem;
 }
 .footer-container .tit {
 	float: left;
-  margin-right: 14px;
+  margin-right: 1.5rem;
   width: 160px;
 }
 .footer-container .cs_view {
@@ -129,12 +133,18 @@ a,a:hover {
 .footer-container .cs_view dl.list dd {
 	color: #9c9b9b;
 }
+.footer-container .cs_right {
+	text-align: right;
+}
 .footer-container .cs_right ul {
 	padding-bottom:20px;
 }
 .footer-container .cs_right ul li {
 	display: inline-block;
 	margin-right:1rem;
+}
+.footer-container .cs_right ul li:last-child {
+	margin-right:0;
 }
 
 .footer-container .cs_right .company {
